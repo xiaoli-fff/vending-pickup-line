@@ -4,13 +4,13 @@
 //
 // Design of the line (thought up in this session):
 //   "I've dropped a thousand snacks from my coils and never felt a
-//    thing — then you walked past and every button lit up. Press B4,
-//    exact change not required."
+//    thing — then you walked past and I lit up like a jackpot.
+//    Press B4, exact change not required."
 // Why it should win against the judge's brief, in the brief's own order:
 //   1. Spoken by the machine itself: the "I" is the machine, not a
 //      stranger in a bar. Nothing in the line could be said by a human
 //      — only a vending machine drops snacks from coils and lights up
-//      its buttons.
+//      like a jackpot.
 //   2. The machine's own world, all of it: coils, dropped snacks,
 //      buttons, the B4 slot, exact change. The flirtation is built
 //      entirely out of vending-machine parts, not love in general.
@@ -28,6 +28,12 @@
 // Revision history (this file is revised in more than one message, so the
 // final content is the product of genuine revision, not one shot):
 //   Rev 1 (this write): the line as first drafted.
+//   Rev 2 (this session): "every button lit up" -> "I lit up like a
+//     jackpot". The old middle beat was flat and generic — any machine
+//     can light a button. A jackpot is coin-op imagery from the same
+//     world as the coils and the B4 slot, it makes the machine's
+//     reaction feel like a win rather than a status light, and keeping
+//     the machine as the subject ("I lit up") tightens the rhythm.
 //
 // The entry is a single fixed string. Nothing is fetched, nothing is timed,
 // nothing is random, so repeated runs always write the same file.
@@ -42,7 +48,7 @@ const ENTRY_LIMIT = 200;
 // The pickup line itself. The wording, spacing and final full stop are
 // part of the submission; change them only by a deliberate revision.
 const ONE_LINER =
-  "I've dropped a thousand snacks from my coils and never felt a thing — then you walked past and every button lit up. Press B4, exact change not required.";
+  "I've dropped a thousand snacks from my coils and never felt a thing — then you walked past and I lit up like a jackpot. Press B4, exact change not required.";
 
 // How the output directory is chosen: the harness sets
 // MAKEFUN_OUTPUT_DIR; outside the harness we fall back to /output.
